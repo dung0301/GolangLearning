@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-
+//tao maps 
 	m := make(map[string]int)
 
 	m["k1"] = 7
@@ -21,7 +21,7 @@ func main() {
 
 	_, prs := m["k1"]
 	fmt.Println("prs:", prs)
-
+//gan maps
 	n := map[string]int{"foo": 1, "bar": 2}
 	fmt.Println("map:", n)
 }
